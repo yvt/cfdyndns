@@ -10,3 +10,7 @@ log = "^0.3"
 serde = "^0.8"
 serde_json = "^0.8"
 trust-dns = "^0.12"
+
+[replace."backtrace:0.2.3"]
+path = "./backtrace-rs"
+
